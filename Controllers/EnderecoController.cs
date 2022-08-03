@@ -1,0 +1,38 @@
+using System.ComponentModel.DataAnnotations;
+using artigotech_integra_brasilapi.Dtos;
+using artigotech_integra_brasilapi.Interfaces;
+using Microsoft.AspNetCore.Mvc;
+
+namespace artigotech_integra_brasilapi.Controllers
+{
+    [ApiController]
+    [Route("api/v1/[controller]")]
+    public class EnderecoController : ControllerBase
+    {
+        public readonly IEnderecoService _enderecoService;
+
+        public EnderecoController(IEnderecoService enderecoService)
+        {
+            _enderecoService = enderecoService;
+        }
+
+        [HttpGet("busca-endereco")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> BuscarEndereco([FromQuery][Required] string cep) 
+        {
+            var response = await _enderecoService.BuscarEndereco(cep);
+
+            if(response.CodigoHttp == System.Net.HttpStatusCode.OK) 
+            {
+                return Ok(response.Objeto);
+            }
+            else 
+            {
+                return StatusCode((int)response.CodigoHttp, response.Body);
+            }
+        }
+    }
+}
