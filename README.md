@@ -1,5 +1,7 @@
 <h1 align="center">
-    Consumindo API de Terceiro com C# e .NET 6 | <strong><a href="https://youtube.com/artigotech?sub_confirmation=1">Artigo Tech</a></strong>
+    Consumindo API de Terceiro com C# e .NET 6
+    <br />
+    <strong><a href="https://youtube.com/artigotech?sub_confirmation=1">Artigo Tech</a></strong>
 </h1>
 
 <div align="center">
