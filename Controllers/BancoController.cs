@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Net;
 using artigotech_integra_brasilapi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,11 +26,11 @@ namespace artigotech_integra_brasilapi.Controllers
 
             if(response.CodigoHttp == System.Net.HttpStatusCode.OK) 
             {
-                return Ok(response.Objeto);
+                return Ok(response.DadosRetorno);
             }
             else 
             {
-                return StatusCode((int)response.CodigoHttp, response.Body);
+                return StatusCode((int)response.CodigoHttp, response.ErroRetorno);
             }
         }
 
@@ -38,17 +39,17 @@ namespace artigotech_integra_brasilapi.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Buscar(string codigoBanco) 
+        public async Task<IActionResult> Buscar([RegularExpression("^[0-9]*$")] string codigoBanco) 
         {
             var response = await _bancoService.BuscarBanco(codigoBanco);
 
-            if(response.CodigoHttp == System.Net.HttpStatusCode.OK) 
+            if(response.CodigoHttp == HttpStatusCode.OK) 
             {
-                return Ok(response.Objeto);
+                return Ok(response.DadosRetorno);
             }
             else 
             {
-                return StatusCode((int)response.CodigoHttp, response.Body);
+                return StatusCode((int)response.CodigoHttp, response.ErroRetorno);
             }
         }
     }

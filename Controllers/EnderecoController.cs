@@ -1,5 +1,4 @@
-using System.ComponentModel.DataAnnotations;
-using artigotech_integra_brasilapi.Dtos;
+using System.Net;
 using artigotech_integra_brasilapi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,13 +24,13 @@ namespace artigotech_integra_brasilapi.Controllers
         {
             var response = await _enderecoService.BuscarEndereco(cep);
 
-            if(response.CodigoHttp == System.Net.HttpStatusCode.OK) 
+            if(response.CodigoHttp == HttpStatusCode.OK) 
             {
-                return Ok(response.Objeto);
+                return Ok(response.DadosRetorno);
             }
             else 
             {
-                return StatusCode((int)response.CodigoHttp, response.Body);
+                return StatusCode((int)response.CodigoHttp, response.ErroRetorno);
             }
         }
     }

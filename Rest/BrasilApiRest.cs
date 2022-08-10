@@ -21,12 +21,12 @@ namespace artigotech_integra_brasilapi.Rest
                 if (responseBrasilApi.IsSuccessStatusCode) 
                 {    
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Objeto = objResponse;
+                    response.DadosRetorno = objResponse;
                 }
                 else 
                 {
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Body = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
+                    response.ErroRetorno = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
                 }
             }
             return response;
@@ -45,12 +45,12 @@ namespace artigotech_integra_brasilapi.Rest
                 if (responseBrasilApi.IsSuccessStatusCode) 
                 {    
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Objeto = objResponse;
+                    response.DadosRetorno = objResponse;
                 }
                 else 
                 {
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Body = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
+                    response.ErroRetorno = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
                 }
             }
             return response;
@@ -69,12 +69,12 @@ namespace artigotech_integra_brasilapi.Rest
                 if (responseBrasilApi.IsSuccessStatusCode) 
                 {    
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Objeto = objResponse;
+                    response.DadosRetorno = objResponse;
                 }
                 else 
                 {
                     response.CodigoHttp = responseBrasilApi.StatusCode;
-                    response.Body = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
+                    response.ErroRetorno = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
                 }
             }
             return response;
