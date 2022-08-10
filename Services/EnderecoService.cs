@@ -1,6 +1,5 @@
 using artigotech_integra_brasilapi.Dtos;
 using artigotech_integra_brasilapi.Interfaces;
-using artigotech_integra_brasilapi.Models;
 using AutoMapper;
 
 namespace artigotech_integra_brasilapi.Services
