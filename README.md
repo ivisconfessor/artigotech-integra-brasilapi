@@ -22,23 +22,17 @@
 ## Links das Vídeos Aulas no YouTube
 
 <p>
-    <strong>EP. 7 (parte 1)</strong> | <a href="https://www.youtube.com/watch?v=MYPMNnXlc7A">Clique aqui para assistir!</a>
+    <strong>EP. 7 (parte 1)</strong> | <a href="https://www.youtube.com/watch?v=Xl9VYiUSArU">Clique aqui para assistir!</a>
     <br />
     <br />
     <img 
-        src="https://i.ytimg.com/vi/MYPMNnXlc7A/maxresdefault.jpg" 
+        src="https://i.ytimg.com/vi/Xl9VYiUSArU/maxresdefault.jpg" 
         alt="Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática - EP. 7 (parte 1)"
     />
 </p>
 
 <p>
-    <strong>EP. 8 (parte 2)</strong> | <a href="https://www.youtube.com/watch?v=dywcsdYFUq0">Clique aqui para assistir!</a>
-    <br />
-    <br /> 
-    <img 
-        src="https://i.ytimg.com/vi/vevmhpwcwmg/maxresdefault.jpg" 
-        alt="Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática - EP. 8 (parte 2)"
-    />
+    <strong>EP. 8 (parte 2)</strong> | A parte 2, estará disponível no canal, a partir do dia 05/09 às 12h 
 </p>
 
 </div>
