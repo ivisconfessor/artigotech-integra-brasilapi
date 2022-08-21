@@ -1,5 +1,5 @@
 <h1 align="center">
-    Consumindo API de Terceiro com C# e .NET 6
+    Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática
     <br />
     <strong><a href="https://youtube.com/artigotech?sub_confirmation=1">Artigo Tech</a></strong>
 </h1>
@@ -19,17 +19,38 @@
 
 <div align="center">
 
-## Link do EP7 no YouTube
+## Links das Vídeos Aulas no YouTube
 
 <p>
-    <strong>Consumindo API de Terceiro com C# e .NET 6 | C# Na Prática - EP. 7</strong> | <a href="https://www.youtube.com/watch?v=MYPMNnXlc7A">Clique aqui para assistir!</a>
+    <strong>EP. 7 (parte 1)</strong> | <a href="https://www.youtube.com/watch?v=MYPMNnXlc7A">Clique aqui para assistir!</a>
     <br />
     <br />
     <img 
         src="https://i.ytimg.com/vi/MYPMNnXlc7A/maxresdefault.jpg" 
-        alt="Consumindo API de Terceiro com C# e .NET 6 | C# Na Prática - EP. 7"
+        alt="Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática - EP. 7 (parte 1)"
     />
 </p>
+
+<p>
+    <strong>EP. 8 (parte 2)</strong> | <a href="https://www.youtube.com/watch?v=dywcsdYFUq0">Clique aqui para assistir!</a>
+    <br />
+    <br /> 
+    <img 
+        src="https://i.ytimg.com/vi/vevmhpwcwmg/maxresdefault.jpg" 
+        alt="Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática - EP. 8 (parte 2)"
+    />
+</p>
+
+</div>
+
+<div align="center">
+
+## 👨🏽‍💻 Comandos DotNet CLI
+ 
+`Criar projeto WebApi`
+```
+dotnet new webapi --name IntegraBrasilApi
+```
 
 </div>
 
