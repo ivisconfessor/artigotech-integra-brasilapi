@@ -1,4 +1,4 @@
-<h1 align="center">
+<h2 align="center">
     Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática
     <br />
     <strong><a href="https://youtube.com/artigotech?sub_confirmation=1">Artigo Tech</a></strong>
