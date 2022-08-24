@@ -32,7 +32,7 @@
 </p>
 
 <p>
-    <strong>EP. 8 (parte 2)</strong> | A parte 2, estará disponível no canal, a partir do dia 05/09 às 12h 
+    <strong>EP. 8 (parte 2)</strong> | A parte 2, estará disponível no canal, a partir do dia 29/09 às 19h 
 </p>
 
 </div>
