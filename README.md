@@ -32,7 +32,7 @@
 </p>
 
 <p>
-    <strong>EP. 8 (parte 2)</strong> | <a href="https://youtu.be/bgAYM6loNnI"><a/>
+    <strong>EP. 8 (parte 2)</strong> | <a href="https://youtu.be/bgAYM6loNnI">Clique aqui para assistir!<a/>
     <br />
     <br />
     <img 
