@@ -32,7 +32,13 @@
 </p>
 
 <p>
-    <strong>EP. 8 (parte 2)</strong> | A parte 2, estará disponível no canal, a partir do dia 29/09 às 19h 
+    <strong>EP. 8 (parte 2)</strong> | <a href="https://youtu.be/bgAYM6loNnI"><a/>
+    <br />
+    <br />
+    <img 
+        src="https://i.ytimg.com/vi/bgAYM6loNnI/maxresdefault.jpg" 
+        alt="Como consumir API de Terceiro (Brasil API), com C# e .NET 6 | C# Na Prática - EP. 8 (parte 2)"
+    />
 </p>
 
 </div>
